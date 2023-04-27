@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'codelab_app/my_app_state.dart';
-import 'codelab_app/my_home_page.dart';
-
-void main() {
-  runApp(const MyApp());
-}
+import 'my_app_state.dart';
+import 'my_home_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
